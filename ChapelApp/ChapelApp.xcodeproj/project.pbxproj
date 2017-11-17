@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D426A0E71FBE8A5C00F3B575 /* AbsenceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D426A0E61FBE8A5C00F3B575 /* AbsenceData.swift */; };
+		D426A0E91FBE8A8200F3B575 /* AbsenceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D426A0E81FBE8A8200F3B575 /* AbsenceTableViewCell.swift */; };
+		D426A0EB1FBE8A9D00F3B575 /* AbsenceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D426A0EA1FBE8A9D00F3B575 /* AbsenceTableViewController.swift */; };
+		D426A0ED1FBE8AC700F3B575 /* Absence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D426A0EC1FBE8AC700F3B575 /* Absence.swift */; };
+		D426A0EF1FBE900800F3B575 /* AnnouncementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D426A0EE1FBE900800F3B575 /* AnnouncementData.swift */; };
+		D426A0F11FBE902300F3B575 /* AnnouncementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D426A0F01FBE902300F3B575 /* AnnouncementTableViewController.swift */; };
+		D426A0F31FBE903500F3B575 /* AnnouncementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D426A0F21FBE903500F3B575 /* AnnouncementTableViewCell.swift */; };
+		D426A0F51FBE904700F3B575 /* Announcement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D426A0F41FBE904700F3B575 /* Announcement.swift */; };
+		D44F5D511FBCDFF2009DBFA7 /* Prayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44F5D501FBCDFF2009DBFA7 /* Prayers.swift */; };
+		D44F5D531FBCE0B2009DBFA7 /* PrayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44F5D521FBCE0B2009DBFA7 /* PrayerData.swift */; };
+		D44F5D551FBCE19C009DBFA7 /* PrayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44F5D541FBCE19C009DBFA7 /* PrayerTableViewCell.swift */; };
+		D4873B5B1FB147B100DC0966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4873B5A1FB147B100DC0966 /* AppDelegate.swift */; };
+		D4873B5D1FB147B100DC0966 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4873B5C1FB147B100DC0966 /* LoginViewController.swift */; };
+		D4873B601FB147B100DC0966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4873B5E1FB147B100DC0966 /* Main.storyboard */; };
+		D4873B621FB147B100DC0966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4873B611FB147B100DC0966 /* Assets.xcassets */; };
+		D4873B651FB147B100DC0966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4873B631FB147B100DC0966 /* LaunchScreen.storyboard */; };
+		D4873B701FB147B100DC0966 /* ChapelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4873B6F1FB147B100DC0966 /* ChapelAppTests.swift */; };
+		D4873B7B1FB147B100DC0966 /* ChapelAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4873B7A1FB147B100DC0966 /* ChapelAppUITests.swift */; };
+		D4873B891FB14E8700DC0966 /* ParticipantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4873B881FB14E8700DC0966 /* ParticipantsTableViewController.swift */; };
+		D4873B8D1FB1500F00DC0966 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4873B8C1FB1500F00DC0966 /* MainTabController.swift */; };
+		D4873B8F1FB15F4B00DC0966 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4873B8E1FB15F4B00DC0966 /* FirstViewController.swift */; };
+		D4873B911FB1606A00DC0966 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4873B901FB1606A00DC0966 /* ProfileViewController.swift */; };
+		D4F85A1B1FBCF46900442B07 /* PrayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F85A1A1FBCF46900442B07 /* PrayerTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4873B6C1FB147B100DC0966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4873B4F1FB147B100DC0966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4873B561FB147B100DC0966;
+			remoteInfo = ChapelApp;
+		};
+		D4873B771FB147B100DC0966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4873B4F1FB147B100DC0966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4873B561FB147B100DC0966;
+			remoteInfo = ChapelApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D426A0E61FBE8A5C00F3B575 /* AbsenceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceData.swift; sourceTree = "<group>"; };
+		D426A0E81FBE8A8200F3B575 /* AbsenceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceTableViewCell.swift; sourceTree = "<group>"; };
+		D426A0EA1FBE8A9D00F3B575 /* AbsenceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceTableViewController.swift; sourceTree = "<group>"; };
+		D426A0EC1FBE8AC700F3B575 /* Absence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absence.swift; sourceTree = "<group>"; };
+		D426A0EE1FBE900800F3B575 /* AnnouncementData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementData.swift; sourceTree = "<group>"; };
+		D426A0F01FBE902300F3B575 /* AnnouncementTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewController.swift; sourceTree = "<group>"; };
+		D426A0F21FBE903500F3B575 /* AnnouncementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewCell.swift; sourceTree = "<group>"; };
+		D426A0F41FBE904700F3B575 /* Announcement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announcement.swift; sourceTree = "<group>"; };
+		D44F5D501FBCDFF2009DBFA7 /* Prayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayers.swift; sourceTree = "<group>"; };
+		D44F5D521FBCE0B2009DBFA7 /* PrayerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerData.swift; sourceTree = "<group>"; };
+		D44F5D541FBCE19C009DBFA7 /* PrayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTableViewCell.swift; sourceTree = "<group>"; };
+		D4873B571FB147B100DC0966 /* ChapelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChapelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4873B5A1FB147B100DC0966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4873B5C1FB147B100DC0966 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D4873B5F1FB147B100DC0966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4873B611FB147B100DC0966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4873B641FB147B100DC0966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4873B661FB147B100DC0966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4873B6B1FB147B100DC0966 /* ChapelAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChapelAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4873B6F1FB147B100DC0966 /* ChapelAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapelAppTests.swift; sourceTree = "<group>"; };
+		D4873B711FB147B100DC0966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4873B761FB147B100DC0966 /* ChapelAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChapelAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4873B7A1FB147B100DC0966 /* ChapelAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapelAppUITests.swift; sourceTree = "<group>"; };
+		D4873B7C1FB147B100DC0966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4873B881FB14E8700DC0966 /* ParticipantsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsTableViewController.swift; sourceTree = "<group>"; };
+		D4873B8C1FB1500F00DC0966 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		D4873B8E1FB15F4B00DC0966 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D4873B901FB1606A00DC0966 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D4F85A1A1FBCF46900442B07 /* PrayerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4873B541FB147B100DC0966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4873B681FB147B100DC0966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4873B731FB147B100DC0966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4873B4E1FB147B100DC0966 = {
+			isa = PBXGroup;
+			children = (
+				D4873B591FB147B100DC0966 /* ChapelApp */,
+				D4873B6E1FB147B100DC0966 /* ChapelAppTests */,
+				D4873B791FB147B100DC0966 /* ChapelAppUITests */,
+				D4873B581FB147B100DC0966 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4873B581FB147B100DC0966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4873B571FB147B100DC0966 /* ChapelApp.app */,
+				D4873B6B1FB147B100DC0966 /* ChapelAppTests.xctest */,
+				D4873B761FB147B100DC0966 /* ChapelAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4873B591FB147B100DC0966 /* ChapelApp */ = {
+			isa = PBXGroup;
+			children = (
+				D4873B5A1FB147B100DC0966 /* AppDelegate.swift */,
+				D4873B5C1FB147B100DC0966 /* LoginViewController.swift */,
+				D4873B5E1FB147B100DC0966 /* Main.storyboard */,
+				D426A0EE1FBE900800F3B575 /* AnnouncementData.swift */,
+				D426A0F01FBE902300F3B575 /* AnnouncementTableViewController.swift */,
+				D426A0F21FBE903500F3B575 /* AnnouncementTableViewCell.swift */,
+				D426A0F41FBE904700F3B575 /* Announcement.swift */,
+				D426A0E61FBE8A5C00F3B575 /* AbsenceData.swift */,
+				D426A0EA1FBE8A9D00F3B575 /* AbsenceTableViewController.swift */,
+				D426A0E81FBE8A8200F3B575 /* AbsenceTableViewCell.swift */,
+				D426A0EC1FBE8AC700F3B575 /* Absence.swift */,
+				D44F5D501FBCDFF2009DBFA7 /* Prayers.swift */,
+				D44F5D521FBCE0B2009DBFA7 /* PrayerData.swift */,
+				D4F85A1A1FBCF46900442B07 /* PrayerTableViewController.swift */,
+				D44F5D541FBCE19C009DBFA7 /* PrayerTableViewCell.swift */,
+				D4873B8C1FB1500F00DC0966 /* MainTabController.swift */,
+				D4873B881FB14E8700DC0966 /* ParticipantsTableViewController.swift */,
+				D4873B611FB147B100DC0966 /* Assets.xcassets */,
+				D4873B631FB147B100DC0966 /* LaunchScreen.storyboard */,
+				D4873B661FB147B100DC0966 /* Info.plist */,
+				D4873B8E1FB15F4B00DC0966 /* FirstViewController.swift */,
+				D4873B901FB1606A00DC0966 /* ProfileViewController.swift */,
+			);
+			path = ChapelApp;
+			sourceTree = "<group>";
+		};
+		D4873B6E1FB147B100DC0966 /* ChapelAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4873B6F1FB147B100DC0966 /* ChapelAppTests.swift */,
+				D4873B711FB147B100DC0966 /* Info.plist */,
+			);
+			path = ChapelAppTests;
+			sourceTree = "<group>";
+		};
+		D4873B791FB147B100DC0966 /* ChapelAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4873B7A1FB147B100DC0966 /* ChapelAppUITests.swift */,
+				D4873B7C1FB147B100DC0966 /* Info.plist */,
+			);
+			path = ChapelAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4873B561FB147B100DC0966 /* ChapelApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4873B7F1FB147B100DC0966 /* Build configuration list for PBXNativeTarget "ChapelApp" */;
+			buildPhases = (
+				D4873B531FB147B100DC0966 /* Sources */,
+				D4873B541FB147B100DC0966 /* Frameworks */,
+				D4873B551FB147B100DC0966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChapelApp;
+			productName = ChapelApp;
+			productReference = D4873B571FB147B100DC0966 /* ChapelApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4873B6A1FB147B100DC0966 /* ChapelAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4873B821FB147B100DC0966 /* Build configuration list for PBXNativeTarget "ChapelAppTests" */;
+			buildPhases = (
+				D4873B671FB147B100DC0966 /* Sources */,
+				D4873B681FB147B100DC0966 /* Frameworks */,
+				D4873B691FB147B100DC0966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4873B6D1FB147B100DC0966 /* PBXTargetDependency */,
+			);
+			name = ChapelAppTests;
+			productName = ChapelAppTests;
+			productReference = D4873B6B1FB147B100DC0966 /* ChapelAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4873B751FB147B100DC0966 /* ChapelAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4873B851FB147B100DC0966 /* Build configuration list for PBXNativeTarget "ChapelAppUITests" */;
+			buildPhases = (
+				D4873B721FB147B100DC0966 /* Sources */,
+				D4873B731FB147B100DC0966 /* Frameworks */,
+				D4873B741FB147B100DC0966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4873B781FB147B100DC0966 /* PBXTargetDependency */,
+			);
+			name = ChapelAppUITests;
+			productName = ChapelAppUITests;
+			productReference = D4873B761FB147B100DC0966 /* ChapelAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4873B4F1FB147B100DC0966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Freed Hardeman University";
+				TargetAttributes = {
+					D4873B561FB147B100DC0966 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D4873B6A1FB147B100DC0966 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D4873B561FB147B100DC0966;
+					};
+					D4873B751FB147B100DC0966 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D4873B561FB147B100DC0966;
+					};
+				};
+			};
+			buildConfigurationList = D4873B521FB147B100DC0966 /* Build configuration list for PBXProject "ChapelApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4873B4E1FB147B100DC0966;
+			productRefGroup = D4873B581FB147B100DC0966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4873B561FB147B100DC0966 /* ChapelApp */,
+				D4873B6A1FB147B100DC0966 /* ChapelAppTests */,
+				D4873B751FB147B100DC0966 /* ChapelAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4873B551FB147B100DC0966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4873B651FB147B100DC0966 /* LaunchScreen.storyboard in Resources */,
+				D4873B621FB147B100DC0966 /* Assets.xcassets in Resources */,
+				D4873B601FB147B100DC0966 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4873B691FB147B100DC0966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4873B741FB147B100DC0966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4873B531FB147B100DC0966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44F5D551FBCE19C009DBFA7 /* PrayerTableViewCell.swift in Sources */,
+				D4873B891FB14E8700DC0966 /* ParticipantsTableViewController.swift in Sources */,
+				D426A0F31FBE903500F3B575 /* AnnouncementTableViewCell.swift in Sources */,
+				D426A0F11FBE902300F3B575 /* AnnouncementTableViewController.swift in Sources */,
+				D44F5D511FBCDFF2009DBFA7 /* Prayers.swift in Sources */,
+				D426A0E71FBE8A5C00F3B575 /* AbsenceData.swift in Sources */,
+				D44F5D531FBCE0B2009DBFA7 /* PrayerData.swift in Sources */,
+				D4F85A1B1FBCF46900442B07 /* PrayerTableViewController.swift in Sources */,
+				D426A0EB1FBE8A9D00F3B575 /* AbsenceTableViewController.swift in Sources */,
+				D4873B5D1FB147B100DC0966 /* LoginViewController.swift in Sources */,
+				D4873B5B1FB147B100DC0966 /* AppDelegate.swift in Sources */,
+				D4873B8F1FB15F4B00DC0966 /* FirstViewController.swift in Sources */,
+				D426A0F51FBE904700F3B575 /* Announcement.swift in Sources */,
+				D426A0EF1FBE900800F3B575 /* AnnouncementData.swift in Sources */,
+				D4873B911FB1606A00DC0966 /* ProfileViewController.swift in Sources */,
+				D426A0ED1FBE8AC700F3B575 /* Absence.swift in Sources */,
+				D426A0E91FBE8A8200F3B575 /* AbsenceTableViewCell.swift in Sources */,
+				D4873B8D1FB1500F00DC0966 /* MainTabController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4873B671FB147B100DC0966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4873B701FB147B100DC0966 /* ChapelAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4873B721FB147B100DC0966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4873B7B1FB147B100DC0966 /* ChapelAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4873B6D1FB147B100DC0966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4873B561FB147B100DC0966 /* ChapelApp */;
+			targetProxy = D4873B6C1FB147B100DC0966 /* PBXContainerItemProxy */;
+		};
+		D4873B781FB147B100DC0966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4873B561FB147B100DC0966 /* ChapelApp */;
+			targetProxy = D4873B771FB147B100DC0966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4873B5E1FB147B100DC0966 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4873B5F1FB147B100DC0966 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4873B631FB147B100DC0966 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4873B641FB147B100DC0966 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4873B7D1FB147B100DC0966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4873B7E1FB147B100DC0966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4873B801FB147B100DC0966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChapelApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhu.edu.ChapelApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4873B811FB147B100DC0966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChapelApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhu.edu.ChapelApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4873B831FB147B100DC0966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChapelAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhu.edu.ChapelAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChapelApp.app/ChapelApp";
+			};
+			name = Debug;
+		};
+		D4873B841FB147B100DC0966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChapelAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhu.edu.ChapelAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChapelApp.app/ChapelApp";
+			};
+			name = Release;
+		};
+		D4873B861FB147B100DC0966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChapelAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhu.edu.ChapelAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChapelApp;
+			};
+			name = Debug;
+		};
+		D4873B871FB147B100DC0966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChapelAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fhu.edu.ChapelAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChapelApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4873B521FB147B100DC0966 /* Build configuration list for PBXProject "ChapelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4873B7D1FB147B100DC0966 /* Debug */,
+				D4873B7E1FB147B100DC0966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4873B7F1FB147B100DC0966 /* Build configuration list for PBXNativeTarget "ChapelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4873B801FB147B100DC0966 /* Debug */,
+				D4873B811FB147B100DC0966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4873B821FB147B100DC0966 /* Build configuration list for PBXNativeTarget "ChapelAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4873B831FB147B100DC0966 /* Debug */,
+				D4873B841FB147B100DC0966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4873B851FB147B100DC0966 /* Build configuration list for PBXNativeTarget "ChapelAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4873B861FB147B100DC0966 /* Debug */,
+				D4873B871FB147B100DC0966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4873B4F1FB147B100DC0966 /* Project object */;
+}
